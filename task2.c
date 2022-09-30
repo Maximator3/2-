@@ -4,10 +4,10 @@
 int main()
 {
 	int i, N=5, countNum = 0,temp=1;
-	int a[5] = {2,10,-8,5,0};
+	int a[5] = {3,9,-5,4,0};
 	float sum = 0;
 	float sum_mod = 0;
-	printf("Array:\n");
+	printf("Masiv:\n");
 	for(i=0;i<5;i++)
 	{
 		printf("%d ", a[i]);
@@ -17,7 +17,7 @@ int main()
 	{
 		sum += a[i];
 	}
-	printf("The middle of the array: %0.2f\n", sum/N);
+	printf("The middle of the Masiv: %0.2f\n", sum/N);
 	for(i=0;i<5;i++)
 	{
 		if(a[i]>sum/N)
@@ -42,3 +42,4 @@ int main()
 	getchar(); getchar();
 	return 0;
 }
+
